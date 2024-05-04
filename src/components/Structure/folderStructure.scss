@@ -1,0 +1,47 @@
+$border_color: black;
+$ele_position: absolute;
+$border_radius: 25px;
+
+.verticleLine {
+  border-left: 3px solid $border_color;
+  position: relative;
+  height: 50px;
+  right: 28px;
+  bottom: 16px;
+}
+.horizontalEle {
+  position: $ele_position;
+  top: 32px;
+  display: flex;
+  flex-direction: row;
+}
+hr {
+  width: 32px;
+  height: 0px;
+  border: 1px solid $border_color;
+}
+.folderImage {
+  width: 15px;
+  height: 18px;
+  margin-right: 10px;
+}
+.folderName {
+  font-size: 15px;
+  margin-top: -3px;
+  margin-right: 2px;
+}
+.rightButton {
+  border: 2px solid $border_color;
+  border-radius: $border_radius;
+  color: white;
+  background-color: black;
+  margin: 0px 5px;
+}
+.cancelButton {
+  border: 2px solid $border_color;
+  border-radius: $border_radius;
+  color: black;
+}
+.css-ptiqhd-MuiSvgIcon-root {
+  font-size: 13px !important;
+}

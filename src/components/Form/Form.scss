@@ -1,0 +1,32 @@
+$border_color: black;
+.folderContainer {
+  border: 2px solid $border_color;
+  width: 270px;
+  padding: 10px;
+}
+.folderForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.folderImg {
+  width: 15px;
+  margin-right: 7px;
+}
+.rightMark {
+  border: 2px solid $border_color;
+  border-radius: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: black;
+  color: white;
+}
+.cancelMark {
+  border: 2px solid $border_color;
+  border-radius: 4px;
+}
+.error {
+  color: red;
+  display: flex;
+  justify-content: center;
+}

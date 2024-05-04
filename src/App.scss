@@ -1,0 +1,19 @@
+$background_color: #000;
+$textcolor: white;
+
+.header {
+  text-align: center;
+  background-color: $background_color;
+  color: $textcolor;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.rootButton {
+  background-color: $background_color;
+  color: $textcolor;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
